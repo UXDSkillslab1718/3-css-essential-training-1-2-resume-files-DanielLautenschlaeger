@@ -1,3 +1,44 @@
+/* Color Palette
+#2B061E - dark red
+#C0BCD1 - grey
+#FFEED6 - light yellow
+#AC9D46 - gold
+*/
+
+/* Global styles 
+------------------------------------*/
 body {
-    background: lightgreen;
+
+}
+
+a {
+    color: #AC9D46;
+}
+a:hover {
+    text-decoration: none;
+}
+
+header h1, header h2{
+    color: #FFEED6;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header, footer {
+    background: #2B061E;
+    color: #C0BCD1;
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work {
+    background: #FFEED6;
+}
+
+
+/* Education
+------------------------------------*/
+.education {
+    background: #C0BCD1;
 }
