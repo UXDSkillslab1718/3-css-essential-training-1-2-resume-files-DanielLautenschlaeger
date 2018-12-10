@@ -7,8 +7,16 @@
 
 /* Global styles 
 ------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 h1, h2 {
     font-family: 'Bad Script', cursive;
@@ -20,6 +28,7 @@ h1 {
 }
 h2 {
     font-size: 35px;
+    margin-top: 0;
 }
 
 a {
@@ -29,13 +38,22 @@ a:hover {
     text-decoration: none;
 }
 
-header h1, header h2{
-    color: #FFEED6;
-}
-
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
+    padding: 50px; 
+    overflow: hidden;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 30px;
 }
 
 /* Header & Footer 
@@ -44,7 +62,22 @@ header, footer {
     background: #2B061E;
     color: #C0BCD1;
 }
+/*header*/
+.profile-img {
+    border-radius: 50%; 
+}
+header h1, header h2{
+    color: #FFEED6;
+    margin: 0;
+}
 
+/*footer*/
+footer {
+    text-align: center; 
+}
+.content-info a {
+    padding: 10px;
+}
 
 /* Work Experience
 ------------------------------------*/
