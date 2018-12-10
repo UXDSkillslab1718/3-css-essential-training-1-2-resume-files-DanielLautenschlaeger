@@ -137,7 +137,8 @@ h3 ~ p {
 /* Education
 ------------------------------------*/
 .education {
-    background: #C0BCD1;
+    background: linear-gradient(rgba(192, 188, 209,1.0), rgba(192, 188, 209,0.7)), url(../images/studying.jpg) no-repeat fixed;
+    background-size: cover;
 }
 p + h3 {
     margin-top: 30px;
