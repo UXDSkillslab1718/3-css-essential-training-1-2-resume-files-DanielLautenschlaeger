@@ -33,6 +33,11 @@ header h1, header h2{
     color: #FFEED6;
 }
 
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
 /* Header & Footer 
 ------------------------------------*/
 header, footer {
